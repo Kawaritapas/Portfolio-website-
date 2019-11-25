@@ -1,0 +1,191 @@
+body{
+    background-color:black;
+}
+
+.first{
+    background-color:rgb(0, 0, 0);
+    height:600px;
+    width:100%;
+    margin:0;
+}
+.second{
+    background-image:repeating-linear-gradient(black,red);
+    height:1300px;
+    width:100%;
+}
+.third{
+  background-color:black;
+  height:auto;
+  width:100%;
+}
+.fourth{
+  background-color: rgba(0, 0, 0, 0.918);
+  height:300px;
+  width:100%;
+}
+img{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.text{
+    font-family: monospace ;
+    color:rgb(252, 252, 252);
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    line-height: 1em;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+   
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20%;
+  padding: 0 3rem;
+  align-items: center;
+}
+
+h1, h2 {
+  font-weight: 100;
+  font-family: monospace ;
+    color:rgb(252, 252, 252);
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    line-height: 1em;
+    font-style: normal;
+    font-size: 22px;
+  margin: 0.4rem;
+}
+h1 {
+  font-size: 3.5rem;
+  font-weight: 100;
+  font-family: monospace ;
+    color:rgb(252, 252, 252);
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    line-height: 1em;
+    font-style: normal;
+    font-size: 22px;
+}
+
+h2 {
+  font-size: 2rem;
+  color:white;
+  font-weight: 100;
+  font-family: monospace ;
+    color:rgb(252, 252, 252);
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    line-height: 1em;
+    font-style: normal;
+    font-size: 22px;
+}
+.txt-type > .txt {
+  border-right: 0.2rem solid white;
+}
+@media(min-width: 1200px) {
+  h1 {
+    font-size: 5rem;
+    color: white;
+    font-weight: 100;
+  font-family: monospace ;
+    color:rgb(252, 252, 252);
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    line-height: 1em;
+    font-style: normal;
+  }
+}
+@media(max-width: 800px) {
+  .container {
+    padding: 0 1rem;
+    color: white;
+    font-weight: 100;
+  font-family: monospace ;
+    color:rgb(252, 252, 252);
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    line-height: 1em;
+    font-style: normal;
+      }
+h1 {
+    font-size: 3rem;
+    color: white;
+    font-weight: 100;
+  font-family: monospace ;
+    color:rgb(252, 252, 252);
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    line-height: 1em;
+    font-style: normal;
+      }
+}
+@media(max-width: 500px) {
+  h1 {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 100;
+  font-family: monospace ;
+    color:rgb(252, 252, 252);
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    line-height: 1em;
+    font-style: normal;
+     }
+h2 {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 100;
+  font-family: monospace ;
+    color:rgb(252, 252, 252);
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    line-height: 1em;
+    font-style: normal;
+     }
+}
+p{
+    font-family: monospace ;
+    color:rgb(252, 252, 252);
+    letter-spacing: .0em;
+    line-height: 1em;
+    text-transform: none;
+    font-style: normal;
+    font-size: 19px;
+    font-weight: 20;
+    text-align:center;
+    word-spacing:-5px;
+    
+}
+@media(max-width:800px){
+  p{
+    font-family: monospace ;
+    color:rgb(252, 252, 252);
+    letter-spacing: .0em;
+    line-height: 1em;
+    text-transform: none;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 20;
+    text-align:center;
+    word-spacing:-5px;
+  }
+
+}
+.project{
+  background-image:linear-gradient(black,green);
+  height:auto;
+  width:100%;
+}
+.pro{
+  background-color: black;
+  height:100%;
+  width:100%;
+}
